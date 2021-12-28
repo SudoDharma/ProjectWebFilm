@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: #e6e6e6;
+    padding: 0;
+    margin:0;
+    
+}
+
+.container{
+    width: 85%;
+    border: 1px solid #1a75ff;
+    background: #ffffff;
+    display: flex;
+    margin: 0 120px;
+    justify-content: center;
+    flex-direction: column;
+}
+.logo {
+    font-size: xx-large;
+    padding: 30px 0 30px 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1a75ff;
+    border: 1px solid gainsboro;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a{
+    display: inline-block;
+    color:#ffffff;
+    text-align: center;
+    padding: 14px 15px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    opacity:0.9;
+    background-color: #3385ff;
+}
+
+article {
+    width: 98.8%;
+    height: auto;
+    border-radius: 3px;
+    margin: 5px 5px 5px 5px;
+    border: 1px solid gainsboro;
+    clear: both;
+}
+
+.pclass {
+    line-height: 25px;
+}
+
+article .btn1 {
+    margin: auto;
+}
+
+.loop {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #020101;
+    align-items: center;
+    margin: 20px;
+    border-radius: 3px;
+    border: 1px solid gainsboro;
+    flex-wrap: wrap;
+}
+
+.konten {
+    width: 220px;
+    height: 500px;
+    margin: 0 20px 20px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 2px;
+    border: 1px solid #020101;
+}
+
+.judul{
+    text-align: center;
+    color: #020101;
+    margin: auto;
+}
+
+
+
+.konten img {
+    display: flex;
+    margin: auto;
+}
+
+article .isi {
+    border: 1px solid #020101;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+}
+
+.trailer{
+    margin-left: 300px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+}
+
+article .judul {
+        font-size: 35px;
+        margin-left: -0px
+    }
+    
+article .rating {
+        font-size:35px;
+    }
+    
+article .desc {
+    border: 1px solid #e6e6e6;
+} */
+
+.tambah{
+    padding: 10px;
+}
+
+article .konten:hover {
+    opacity:0.9;
+
+}
+
+article .konten a:hover {
+    opacity:0.9;
+}
+
+footer {
+    clear: both;
+    width: 98.8%;
+    height: auto;
+    text-align: center;
+    margin: 5px 5px 5px 5px;
+    border-radius: 3px;
+    border-bottom: 1px solid gainsboro;
+    padding-top: 15px;
+    padding-bottom: 15px;  
+}
+
+button,input[type=submit],input[type=reset] {
+    font-family: sans-serif;
+    font-size: 15px;
+    background: #22a4cf;
+    color: white;
+    border: white 3px solid;
+    border-radius: 5px;
+    padding: 12px 20px;
+    margin-top: -48px;
+    margin-right: 10px;
+	float:right;
+}
+a {
+    text-decoration: none;
+    color: #020101;
+    font-size: 20px;
+}
+a:hover, button:hover, input[type=submit]:hover, input[type=reset]:hover{
+    opacity:0.9;
+}
+.button2{
+    font-family: sans-serif;
+    font-size: 15px;
+    background: #22a4cf;
+    color: white;
+    border: white 3px solid;
+    border-radius: 5px;
+    padding: 12px 20px;
+	margin-top:0px;
+}
+
+@media screen and (max-width:1080px) {
+
+    .container, article, footer {
+        float: none;
+        width: 98%;
+   }
+   article .konten {
+    float: left;
+    width: 48%;
+   }
+
+   article .konten img {
+    height: auto;
+   }
+}
+
+@media screen and (max-width:780px){
+    /* For tablets: */
+    .container, article, footer, article .konten {
+        float: none;
+        width: 98%;
+   }
+
+   article .konten img {
+    height: auto;
+   }
+ 
+}

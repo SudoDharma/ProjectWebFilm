@@ -1,0 +1,86 @@
+/* button save */
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+/* button kembali */
+.button1 {
+    background-color: #6068e2;
+    border: none;
+    color:white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  /* ganti warna border */
+.input-field-border-bottom {
+    border: 1px solid rgb(89, 196, 137);
+    display: inline-block;
+    padding: 4em;
+    border-radius: 10px;
+}
+
+/* ganti warna text dan ukuran */
+.input-field-border-bottom label {
+    color: #0fd68a;     /* Warna: Purple */
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    margin-bottom: 5px;
+}
+
+/* ganti warna text ketika mengetik */
+.input-field-border-bottom input[type="text"],
+.input-field-border-bottom textarea {
+    border: none;
+    border-bottom: 1px solid #ddd;
+    color: rgb(32, 31, 31);
+    font-size: 14px;
+    margin-bottom: 15px;
+    padding: 0.5em 1em 0.5em 0;
+    width: 450px;     /* Ukuran bebas */
+}
+
+/* ganti warna garis dibawah text */
+.input-field-border-bottom input[type="text"]:focus,
+.input-field-border-bottom textarea:focus {
+    border-bottom: 1px solid rgb(99, 190, 103);
+    outline: none;
+}
+
+.container {
+    padding: 140px 0 80px 0;
+    display: flex;
+    justify-content: center;
+    align-self : center;
+}
+
+.btn1 {
+    display: flex;
+    justify-content: center;
+}
+
+.gambar{
+    display: flex;
+    justify-content: center;
+}
+
+.message{
+    color: lime;
+    font-style: italic;
+    font-size: 15px;
+}
